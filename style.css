@@ -33,7 +33,100 @@ body{
     margin-bottom: 30px;
     background: rgba(0,0,0,0.56);
     padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 30px rgba(0, 0,0, 0.1);
+    backdrop-filter: blur(11.6px);
+    -webkit-backdrop-filter: blur(11.6px);
 }
 .image-wrapper img{
 max-width: 500px;
+}
+.logo{
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: -10px;
+}
+ul.nav-links{
+   margin: 0;
+   float: right;
+   display:flex;
+   gap: 20px;
+}
+ul.nav-links li{
+    list-style: none;
+    font-size: 18px;
+    font-weight: 400;
+    /* margin: 0; */
+}
+.content{
+    display: flex;
+    width: 100;
+}
+.main{
+    margin: 50px 0;
+    display: inline-block;
+    padding: 10px;
+ 
+}
+.main h2{
+    font-size: 30px;
+}
+.main p{
+    font-size: 20px;
+}
+button{
+    background-color:transparent;
+    padding: 15px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: 400;
+    border: 1px solid white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    /* width: 100%; */
+
+}
+button:hover{
+    border-color: rgb(17, 165, 244);
+    background-color: rgb(0, 170, 255);
+}
+.image-wrapper{
+    display: flex;
+    margin-top: 5vh;
+    position: relative;
+}
+.attrebute{
+    position: absolute;
+    bottom: 20px;
+    right: 0;
+    font-size: 12px;
+
+}
+@media screen and (max-width:1075px) {
+    .content{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:1075px) {
+.logo{
+    font-size: 22px;
+}
+li.nav-link{
+    font-size: 13px;
+}
+.main h2{
+font-size: 28px;
+}
+.main p{
+    font-size: 15px;
+    }
+   button{
+        font-size: 13px;
+        }
+        .image-wrapper img{
+            max-width: 400px;
+        }
 }
