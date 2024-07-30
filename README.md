@@ -5,3 +5,7 @@
 <h1>Technologies Used</h1>
 <p>1.HTML<br>
 2.CSS</p>
+<H1>Output</H1>
+<img src="Screenshot.png">
+
+Project live link : https://simple-portfolio-33i4tvf35-muthukumar915s-projects.vercel.app/
